@@ -23,3 +23,7 @@ $router->get('/receipe/{id}','ReceipeController@show');
 $router->post('/receipe','ReceipeController@store');
 $router->put('/receipe/{id}', 'ReceipeController@update');
 $router->delete('/receipe/{id}', 'ReceipeController@destroy');
+
+
+
+$router->get('/testing', 'TestingController@index');
